@@ -59,7 +59,7 @@ comm file1 file2
 
 diff file1 file2
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/b87bb893-1b24-4d3d-b649-2f10e412011d)
 
 #Filters
 
@@ -82,7 +82,6 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/2edbac5b-ef57-4d42-9387-dd9841455d22)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
@@ -1011,6 +1010,7 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1025,7 +1025,6 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
  
 cat > nc.awk
 ```bash
@@ -1056,7 +1055,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image](https://github.com/user-attachments/assets/d0ab8799-757f-4006-bc99-4eb7a074d837)
+
 cat > palindrome.sh
 ```bash
 #num=545
