@@ -82,15 +82,15 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/0599b333-611e-4006-b974-ef2df8d9d124)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/5d2be8b3-900e-446c-8737-f20c7be74683)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/37f01f30-32f6-40a5-9ae9-a0c9edb31d3c)
 
 cat < newfile 
 ```
@@ -104,41 +104,24 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/633be931-850e-4c63-9c7c-ee6e96256c88)
 grep hello newfile 
 ## OUTPUT
-
-
-
-
+![image](https://github.com/user-attachments/assets/b7a19a25-a860-4335-9d4f-4d0abe1ebe04)
 grep -v hello newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/4be49f1b-ad88-4c7a-8f44-072fc74d0f67)
 cat newfile | grep -i "hello"
 ## OUTPUT
-
-
-
-
+![image](https://github.com/user-attachments/assets/9b3c3716-76aa-47b6-933c-f61218a23dd2)
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-
-
-
+![image](https://github.com/user-attachments/assets/f8fd0748-5283-4c89-94d0-b33982e13746)
 grep -R ubuntu /etc
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/a0e17e2c-51b0-4d49-9a9c-d0d74109a8eb)
 grep -w -n world newfile   
 ## OUTPUT
-
-
 cat < newfile 
 ```
 Hello world
@@ -160,61 +143,40 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/3d565fbd-1646-42b0-b681-f7748d69eaf5)
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/68edb1c9-c3cf-450a-9e55-05c956254952)
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
-
-
-
+![image](https://github.com/user-attachments/assets/74d369b0-83b2-4aa6-9896-d5aa040784ea)
 egrep '(^hello)' newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/6de36527-c179-434c-8178-470b7fdd2820)
 egrep '(world$)' newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/6cfce3f7-5c11-4a5a-885e-52f755da851c)
 egrep '(World$)' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/90b18a0a-c360-432d-958e-7c60860b1fae)
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/568306d0-72c2-449b-a555-37a7af624bcd)
 egrep '[1-9]' newfile 
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/8f328c9f-54e5-4166-8b9d-fd4efe680c6e)
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/d301be50-c464-42ef-8c7b-4e558083cfb9)
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/15116670-5376-4d37-a5b0-80c24290c698)
 egrep l{2} newfile
 ## OUTPUT
-
-
-
+![image](https://github.com/user-attachments/assets/e74aa7e4-4f85-4d93-8f58-28ccf10b753d)
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
-
+![image](https://github.com/user-attachments/assets/8e4ca6cb-1184-4d42-8450-46e463025e55)
 cat > file23
 ```
 1001 | Ram | 10000 | HR
